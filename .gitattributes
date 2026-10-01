@@ -1,0 +1,6 @@
+# Test fixtures compare script sources byte for byte, so keep LF everywhere,
+# including Windows checkouts (and Windows CI runners).
+* text=auto eol=lf
+*.rbxm binary
+*.rbxl binary
+*.png binary
