@@ -1,0 +1,8 @@
+{
+  "ignoreUnknownInstances": true,
+  "properties": {
+    "Enabled": {
+      "Bool": false
+    }
+  }
+}

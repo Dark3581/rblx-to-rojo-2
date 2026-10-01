@@ -1,0 +1,62 @@
+<roblox version="4">
+	<Item class="Folder" referent="RBX1">
+		<Properties><string name="Name">Holder</string></Properties>
+		<Item class="Model" referent="RBX2">
+			<Properties><string name="Name">Light</string></Properties>
+			<Item class="Script" referent="RBX3">
+				<Properties><string name="Name">Blink</string><ProtectedString name="Source"><![CDATA[print("first")]]></ProtectedString></Properties>
+			</Item>
+		</Item>
+		<Item class="Model" referent="RBX4">
+			<Properties><string name="Name">Light</string></Properties>
+			<Item class="Script" referent="RBX5">
+				<Properties><string name="Name">Blink</string><ProtectedString name="Source"><![CDATA[print("second")]]></ProtectedString></Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="Folder" referent="RBX6">
+		<Properties><string name="Name">CaseOnly</string></Properties>
+		<Item class="ModuleScript" referent="RBX7">
+			<Properties><string name="Name">util</string><ProtectedString name="Source"><![CDATA[return 1]]></ProtectedString></Properties>
+		</Item>
+		<Item class="ModuleScript" referent="RBX8">
+			<Properties><string name="Name">Util</string><ProtectedString name="Source"><![CDATA[return 2]]></ProtectedString></Properties>
+		</Item>
+	</Item>
+	<Item class="Folder" referent="RBX9">
+		<Properties><string name="Name">TwinWithoutScripts</string></Properties>
+		<Item class="Model" referent="RBX10">
+			<Properties><string name="Name">Car</string></Properties>
+			<Item class="Script" referent="RBX11">
+				<Properties><string name="Name">Drive</string><ProtectedString name="Source"><![CDATA[print("vroom")]]></ProtectedString></Properties>
+			</Item>
+		</Item>
+		<Item class="Model" referent="RBX12">
+			<Properties><string name="Name">Car</string></Properties>
+		</Item>
+	</Item>
+	<Item class="Folder" referent="RBX13">
+		<Properties><string name="Name">SameNameDifferentClass</string></Properties>
+		<Item class="Folder" referent="RBX14">
+			<Properties><string name="Name">Thing</string></Properties>
+			<Item class="ModuleScript" referent="RBX15">
+				<Properties><string name="Name">Inner</string><ProtectedString name="Source"><![CDATA[return "inner"]]></ProtectedString></Properties>
+			</Item>
+		</Item>
+		<Item class="ModuleScript" referent="RBX16">
+			<Properties><string name="Name">Thing</string><ProtectedString name="Source"><![CDATA[return "thing"]]></ProtectedString></Properties>
+		</Item>
+	</Item>
+	<Item class="ServerScriptService" referent="RBX17">
+		<Properties><string name="Name">ServerScriptService</string></Properties>
+		<Item class="Script" referent="RBX18">
+			<Properties><string name="Name">Dup</string><ProtectedString name="Source"><![CDATA[print("dup 1")]]></ProtectedString></Properties>
+		</Item>
+		<Item class="Script" referent="RBX19">
+			<Properties><string name="Name">Dup</string><ProtectedString name="Source"><![CDATA[print("dup 2")]]></ProtectedString></Properties>
+		</Item>
+		<Item class="Script" referent="RBX20">
+			<Properties><string name="Name">Fine</string><ProtectedString name="Source"><![CDATA[print("fine")]]></ProtectedString></Properties>
+		</Item>
+	</Item>
+</roblox>

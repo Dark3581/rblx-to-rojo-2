@@ -1,0 +1,34 @@
+<roblox version="4">
+	<Item class="Folder" referent="RBX1">
+		<Properties>
+			<string name="Name">Props</string>
+			<BinaryString name="AttributesSerialize">AgAAAAMAAABOdW0GAAAAAAAAFEABAAAAVhEAAIA/AAAAQAAAQEA=</BinaryString>
+		</Properties>
+		<Item class="Script" referent="RBX2">
+			<Properties><string name="Name">RunsOnClient</string><token name="RunContext">2</token><ProtectedString name="Source"><![CDATA[print("client")]]></ProtectedString></Properties>
+		</Item>
+		<Item class="Script" referent="RBX3">
+			<Properties><string name="Name">Off</string><bool name="Disabled">true</bool><ProtectedString name="Source"><![CDATA[print("off")]]></ProtectedString></Properties>
+		</Item>
+		<Item class="LocalScript" referent="RBX4">
+			<Properties><string name="Name">OffLocal</string><bool name="Disabled">true</bool><ProtectedString name="Source"><![CDATA[print("off local")]]></ProtectedString></Properties>
+		</Item>
+		<Item class="ModuleScript" referent="RBX5">
+			<Properties>
+				<string name="Name">Tagged</string>
+				<BinaryString name="Tags">YQBi</BinaryString>
+				<BinaryString name="AttributesSerialize">AgAAAAMAAABOdW0GAAAAAAAAFEABAAAAVhEAAIA/AAAAQAAAQEA=</BinaryString>
+				<ProtectedString name="Source"><![CDATA[return "tagged"]]></ProtectedString>
+			</Properties>
+		</Item>
+		<Item class="ModuleScript" referent="RBX6">
+			<Properties><string name="Name">WithChildren</string><BinaryString name="Tags">YQBi</BinaryString><ProtectedString name="Source"><![CDATA[return "parent"]]></ProtectedString></Properties>
+			<Item class="ModuleScript" referent="RBX7">
+				<Properties><string name="Name">Child</string><ProtectedString name="Source"><![CDATA[return "child"]]></ProtectedString></Properties>
+			</Item>
+		</Item>
+		<Item class="LocalScript" referent="RBX8">
+			<Properties><string name="Name">Plain</string><ProtectedString name="Source"><![CDATA[print("plain")]]></ProtectedString></Properties>
+		</Item>
+	</Item>
+</roblox>

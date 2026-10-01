@@ -1,0 +1,25 @@
+{
+  "ignoreUnknownInstances": true,
+  "properties": {
+    "Attributes": {
+      "Attributes": {
+        "Num": {
+          "Float64": 5.0
+        },
+        "V": {
+          "Vector3": [
+            1.0,
+            2.0,
+            3.0
+          ]
+        }
+      }
+    },
+    "Tags": {
+      "Tags": [
+        "a",
+        "b"
+      ]
+    }
+  }
+}

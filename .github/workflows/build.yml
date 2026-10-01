@@ -1,0 +1,27 @@
+name: Build
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  build:
+    strategy:
+      matrix:
+        include:
+          - os: windows-latest
+            artifact: rbxlx-to-rojo-windows
+            path: target/release/rbxlx-to-rojo.exe
+          - os: macos-latest
+            artifact: rbxlx-to-rojo-macos
+            path: target/release/rbxlx-to-rojo
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Build (all features)
+        run: cargo build --release --all-features
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact }}
+          path: ${{ matrix.path }}

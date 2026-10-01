@@ -1,0 +1,144 @@
+{
+  "files": {
+    "Holder.rbxm": {
+      "contents": {
+        "Model": [
+          "/Holder [Folder]",
+          "/Holder/a/b [ModuleScript] \"return \\\"slash\\\"\""
+        ]
+      }
+    },
+    "ServerScriptService": {
+      "contents": {
+        "Vfs": {
+          "files": {},
+          "tree": {}
+        }
+      }
+    },
+    "StarterPlayer": {
+      "contents": {
+        "Vfs": {
+          "files": {},
+          "tree": {}
+        }
+      }
+    },
+    "StarterPlayer/StarterPlayerScripts": {
+      "contents": {
+        "Vfs": {
+          "files": {
+            "Normal.client.lua": {
+              "contents": {
+                "Bytes": "print(\"normal\")"
+              }
+            }
+          },
+          "tree": {}
+        }
+      }
+    },
+    "__named__/ServerScriptService": {
+      "contents": {
+        "Vfs": {
+          "files": {
+            "AC_Ban.server.lua": {
+              "contents": {
+                "Bytes": "print(\"ban\")"
+              }
+            },
+            "_Helper_server.lua": {
+              "contents": {
+                "Bytes": "return \"helper\""
+              }
+            },
+            "_init.lua": {
+              "contents": {
+                "Bytes": "return \"init\""
+              }
+            },
+            "trailing_.server.lua": {
+              "contents": {
+                "Bytes": "print(\"dot\")"
+              }
+            }
+          },
+          "tree": {}
+        }
+      }
+    },
+    "__named__/ServerScriptService/_CON": {
+      "contents": {
+        "Vfs": {
+          "files": {
+            "M.lua": {
+              "contents": {
+                "Bytes": "return \"con\""
+              }
+            },
+            "init.meta.json": {
+              "contents": {
+                "Bytes": "{\n  \"ignoreUnknownInstances\": true\n}"
+              }
+            }
+          },
+          "tree": {}
+        }
+      }
+    },
+    "__named__/StarterPlayer/StarterPlayerScripts": {
+      "contents": {
+        "Vfs": {
+          "files": {
+            "what_.client.lua": {
+              "contents": {
+                "Bytes": "print(\"what\")"
+              }
+            }
+          },
+          "tree": {}
+        }
+      }
+    }
+  },
+  "tree": {
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "AC/Ban": {
+        "$ignoreUnknownInstances": true,
+        "$path": "__named__/ServerScriptService/AC_Ban.server.lua"
+      },
+      "CON": {
+        "$ignoreUnknownInstances": true,
+        "$path": "__named__/ServerScriptService/_CON"
+      },
+      "Helper.server": {
+        "$ignoreUnknownInstances": true,
+        "$path": "__named__/ServerScriptService/_Helper_server.lua"
+      },
+      "init": {
+        "$ignoreUnknownInstances": true,
+        "$path": "__named__/ServerScriptService/_init.lua"
+      },
+      "trailing.": {
+        "$ignoreUnknownInstances": true,
+        "$path": "__named__/ServerScriptService/trailing_.server.lua"
+      },
+      "$ignoreUnknownInstances": true,
+      "$path": "ServerScriptService"
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "what?": {
+          "$ignoreUnknownInstances": true,
+          "$path": "__named__/StarterPlayer/StarterPlayerScripts/what_.client.lua"
+        },
+        "$ignoreUnknownInstances": true,
+        "$path": "StarterPlayer/StarterPlayerScripts"
+      },
+      "$ignoreUnknownInstances": true
+    }
+  }
+}

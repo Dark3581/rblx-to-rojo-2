@@ -1,0 +1,88 @@
+{
+  "files": {
+    "Props": {
+      "contents": {
+        "Vfs": {
+          "files": {
+            "Off.meta.json": {
+              "contents": {
+                "Bytes": "{\n  \"ignoreUnknownInstances\": true,\n  \"properties\": {\n    \"Enabled\": {\n      \"Bool\": false\n    }\n  }\n}"
+              }
+            },
+            "Off.server.lua": {
+              "contents": {
+                "Bytes": "print(\"off\")"
+              }
+            },
+            "OffLocal.client.lua": {
+              "contents": {
+                "Bytes": "print(\"off local\")"
+              }
+            },
+            "OffLocal.meta.json": {
+              "contents": {
+                "Bytes": "{\n  \"ignoreUnknownInstances\": true,\n  \"properties\": {\n    \"Enabled\": {\n      \"Bool\": false\n    }\n  }\n}"
+              }
+            },
+            "Plain.client.lua": {
+              "contents": {
+                "Bytes": "print(\"plain\")"
+              }
+            },
+            "RunsOnClient.meta.json": {
+              "contents": {
+                "Bytes": "{\n  \"ignoreUnknownInstances\": true,\n  \"properties\": {\n    \"RunContext\": {\n      \"Enum\": 2\n    }\n  }\n}"
+              }
+            },
+            "RunsOnClient.server.lua": {
+              "contents": {
+                "Bytes": "print(\"client\")"
+              }
+            },
+            "Tagged.lua": {
+              "contents": {
+                "Bytes": "return \"tagged\""
+              }
+            },
+            "Tagged.meta.json": {
+              "contents": {
+                "Bytes": "{\n  \"ignoreUnknownInstances\": true,\n  \"properties\": {\n    \"Attributes\": {\n      \"Attributes\": {\n        \"Num\": {\n          \"Float64\": 5.0\n        },\n        \"V\": {\n          \"Vector3\": [\n            1.0,\n            2.0,\n            3.0\n          ]\n        }\n      }\n    },\n    \"Tags\": {\n      \"Tags\": [\n        \"a\",\n        \"b\"\n      ]\n    }\n  }\n}"
+              }
+            },
+            "init.meta.json": {
+              "contents": {
+                "Bytes": "{\n  \"ignoreUnknownInstances\": true,\n  \"properties\": {\n    \"Attributes\": {\n      \"Attributes\": {\n        \"Num\": {\n          \"Float64\": 5.0\n        },\n        \"V\": {\n          \"Vector3\": [\n            1.0,\n            2.0,\n            3.0\n          ]\n        }\n      }\n    }\n  }\n}"
+              }
+            }
+          },
+          "tree": {}
+        }
+      }
+    },
+    "Props/WithChildren": {
+      "contents": {
+        "Vfs": {
+          "files": {
+            "Child.lua": {
+              "contents": {
+                "Bytes": "return \"child\""
+              }
+            },
+            "init.lua": {
+              "contents": {
+                "Bytes": "return \"parent\""
+              }
+            },
+            "init.meta.json": {
+              "contents": {
+                "Bytes": "{\n  \"ignoreUnknownInstances\": true,\n  \"properties\": {\n    \"Tags\": {\n      \"Tags\": [\n        \"a\",\n        \"b\"\n      ]\n    }\n  }\n}"
+              }
+            }
+          },
+          "tree": {}
+        }
+      }
+    }
+  },
+  "tree": {}
+}

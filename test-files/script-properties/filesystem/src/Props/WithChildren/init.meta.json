@@ -1,0 +1,11 @@
+{
+  "ignoreUnknownInstances": true,
+  "properties": {
+    "Tags": {
+      "Tags": [
+        "a",
+        "b"
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<roblox version="4">
+	<Item class="Folder" referent="RBX1">
+		<Properties><string name="Name">Holder</string></Properties>
+		<Item class="ModuleScript" referent="RBX2">
+			<Properties><string name="Name">a/b</string><ProtectedString name="Source"><![CDATA[return "slash"]]></ProtectedString></Properties>
+		</Item>
+	</Item>
+	<Item class="ServerScriptService" referent="RBX3">
+		<Properties><string name="Name">ServerScriptService</string></Properties>
+		<Item class="Script" referent="RBX4">
+			<Properties><string name="Name">AC/Ban</string><ProtectedString name="Source"><![CDATA[print("ban")]]></ProtectedString></Properties>
+		</Item>
+		<Item class="ModuleScript" referent="RBX5">
+			<Properties><string name="Name">init</string><ProtectedString name="Source"><![CDATA[return "init"]]></ProtectedString></Properties>
+		</Item>
+		<Item class="ModuleScript" referent="RBX6">
+			<Properties><string name="Name">Helper.server</string><ProtectedString name="Source"><![CDATA[return "helper"]]></ProtectedString></Properties>
+		</Item>
+		<Item class="Folder" referent="RBX7">
+			<Properties><string name="Name">CON</string></Properties>
+			<Item class="ModuleScript" referent="RBX8">
+				<Properties><string name="Name">M</string><ProtectedString name="Source"><![CDATA[return "con"]]></ProtectedString></Properties>
+			</Item>
+		</Item>
+		<Item class="Script" referent="RBX9">
+			<Properties><string name="Name">trailing.</string><ProtectedString name="Source"><![CDATA[print("dot")]]></ProtectedString></Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPlayer" referent="RBX10">
+		<Properties><string name="Name">StarterPlayer</string></Properties>
+		<Item class="StarterPlayerScripts" referent="RBX11">
+			<Properties><string name="Name">StarterPlayerScripts</string></Properties>
+			<Item class="LocalScript" referent="RBX12">
+				<Properties><string name="Name">what?</string><ProtectedString name="Source"><![CDATA[print("what")]]></ProtectedString></Properties>
+			</Item>
+			<Item class="LocalScript" referent="RBX13">
+				<Properties><string name="Name">Normal</string><ProtectedString name="Source"><![CDATA[print("normal")]]></ProtectedString></Properties>
+			</Item>
+		</Item>
+	</Item>
+</roblox>

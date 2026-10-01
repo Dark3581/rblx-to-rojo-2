@@ -1,0 +1,44 @@
+{
+  "name": "project",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "AC/Ban": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/__named__/ServerScriptService/AC_Ban.server.lua"
+      },
+      "CON": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/__named__/ServerScriptService/_CON"
+      },
+      "Helper.server": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/__named__/ServerScriptService/_Helper_server.lua"
+      },
+      "init": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/__named__/ServerScriptService/_init.lua"
+      },
+      "trailing.": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/__named__/ServerScriptService/trailing_.server.lua"
+      },
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ServerScriptService"
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "what?": {
+          "$ignoreUnknownInstances": true,
+          "$path": "src/__named__/StarterPlayer/StarterPlayerScripts/what_.client.lua"
+        },
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "$ignoreUnknownInstances": true
+    }
+  }
+}

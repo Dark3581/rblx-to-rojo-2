@@ -1,0 +1,27 @@
+name: Test
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+  schedule:
+    # Every Monday, so breakage from new Roblox file formats or dependency
+    # releases shows up even when nothing in this repo changes.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        # locked: exactly what's in Cargo.lock. latest: newest semver-compatible
+        # rbx-dom releases, to catch upstream changes before we pick them up.
+        deps: [locked, latest]
+    runs-on: ${{ matrix.os }}
+    name: test (${{ matrix.os }}, ${{ matrix.deps }} deps)
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - if: matrix.deps == 'latest'
+        run: cargo update
+      - run: cargo test --release

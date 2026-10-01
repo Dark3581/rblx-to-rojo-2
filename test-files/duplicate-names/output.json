@@ -1,0 +1,116 @@
+{
+  "files": {
+    "CaseOnly.rbxm": {
+      "contents": {
+        "Model": [
+          "/CaseOnly [Folder]",
+          "/CaseOnly/util [ModuleScript] \"return 1\"",
+          "/CaseOnly/Util [ModuleScript] \"return 2\""
+        ]
+      }
+    },
+    "Holder.rbxm": {
+      "contents": {
+        "Model": [
+          "/Holder [Folder]",
+          "/Holder/Light [Model]",
+          "/Holder/Light/Blink [Script] \"print(\\\"first\\\")\"",
+          "/Holder/Light [Model]",
+          "/Holder/Light/Blink [Script] \"print(\\\"second\\\")\""
+        ]
+      }
+    },
+    "SameNameDifferentClass": {
+      "contents": {
+        "Vfs": {
+          "files": {
+            "Thing.lua": {
+              "contents": {
+                "Bytes": "return \"thing\""
+              }
+            },
+            "init.meta.json": {
+              "contents": {
+                "Bytes": "{\n  \"ignoreUnknownInstances\": true\n}"
+              }
+            }
+          },
+          "tree": {}
+        }
+      }
+    },
+    "SameNameDifferentClass/Thing": {
+      "contents": {
+        "Vfs": {
+          "files": {
+            "Inner.lua": {
+              "contents": {
+                "Bytes": "return \"inner\""
+              }
+            },
+            "init.meta.json": {
+              "contents": {
+                "Bytes": "{\n  \"ignoreUnknownInstances\": true\n}"
+              }
+            }
+          },
+          "tree": {}
+        }
+      }
+    },
+    "ServerScriptService": {
+      "contents": {
+        "Vfs": {
+          "files": {
+            "Fine.server.lua": {
+              "contents": {
+                "Bytes": "print(\"fine\")"
+              }
+            }
+          },
+          "tree": {}
+        }
+      }
+    },
+    "TwinWithoutScripts.rbxm": {
+      "contents": {
+        "Model": [
+          "/TwinWithoutScripts [Folder]",
+          "/TwinWithoutScripts/Car [Model]",
+          "/TwinWithoutScripts/Car/Drive [Script] \"print(\\\"vroom\\\")\"",
+          "/TwinWithoutScripts/Car [Model]"
+        ]
+      }
+    },
+    "__conflicts__/ServerScriptService": {
+      "contents": {
+        "Vfs": {
+          "files": {
+            "Dup (2).rbxm": {
+              "contents": {
+                "Model": [
+                  "/Dup [Script] \"print(\\\"dup 2\\\")\""
+                ]
+              }
+            },
+            "Dup.rbxm": {
+              "contents": {
+                "Model": [
+                  "/Dup [Script] \"print(\\\"dup 1\\\")\""
+                ]
+              }
+            }
+          },
+          "tree": {}
+        }
+      }
+    }
+  },
+  "tree": {
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "$path": "ServerScriptService"
+    }
+  }
+}
